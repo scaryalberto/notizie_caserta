@@ -1,0 +1,26 @@
+<table border=”1″>
+    <button onclick="myFunction()">Click me</button> 
+    <tr>
+     <td>cella 0</td>
+     <td>cella 1</td>
+     <td>cella 2</td>
+    </tr>
+    <tr id="r3">
+     <td id="c3">cella 3</td>
+     <td>cella 4</td>
+     <td>cella 5</td>
+    </tr>
+   </table>
+   
+
+    <p id="p">
+        Cerchiamo di spiegare il funzionamento di questi tre metodi applicandoli a questo paragrafo (tag <p>) che recuperiamo grazie al suo attributo ID (pari a “testo”).
+    </p>
+        
+
+   <input type="button" value="Allinea a destra" 
+   onclick="set_function" />
+
+   <script>
+       document.getElementById("p").textContent += "ecco del testo aggiunto al DOM";
+   </script>
